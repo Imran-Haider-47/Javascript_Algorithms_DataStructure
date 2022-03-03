@@ -11,10 +11,11 @@ function isPalindrome(str1)
     {
         if(str1[i]!== str2[j])
         {
+            
             return false;
         }
         j--;
     }
     return true;
 }
-console.log(isPalindrome(''))
+console.log(isPalindrome('123454321'))
